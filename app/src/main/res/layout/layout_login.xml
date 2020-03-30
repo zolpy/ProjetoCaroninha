@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_003"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/metColorPrimary"
+            android:textColorHint="@color/metColorPrimary"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/metColorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/metColorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_004"
+            android:inputType="textPassword"
+            android:textColor="@color/metColorPrimary"
+            android:textColorHint="@color/metColorPrimary"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/metColorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/metColorPrimary"/>
+
+        <!--&lt;!&ndash; =================================================================================== &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@color/colorPrimaryDark"-->
+            <!--android:text="@string/tv_010"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/basePressColor"-->
+            <!--android:textStyle="bold|normal" />-->
+
+        <!--<TableLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:stretchColumns="0,1,2">-->
+
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@drawable/borda">-->
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/ck_driver"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:checked="false"-->
+                    <!--android:text="@string/tv_011" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@drawable/borda">-->
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/ck_customer"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:checked="false"-->
+                    <!--android:text="@string/tv_012" />-->
+            <!--</TableRow>-->
+
+
+        <!--</TableLayout>-->
+        <!--&lt;!&ndash; =================================================================================== &ndash;&gt;-->
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

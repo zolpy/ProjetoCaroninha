@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_pressed"
+    android:theme="@style/Theme.NoActionBar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv_002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_001"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_014"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/image_001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_002"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/bg" />
+
+    <!-- =========================      TableLayoutCustomers   ========================================== -->
+    <TableLayout
+        android:id="@+id/TableLayoutCustomers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayoutCustomer"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="0,1"
+        android:visibility="visible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_person_on" />
+
+            <ImageView
+                android:id="@+id/image_driver_off"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_driver_off" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txt_rider_app"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:text="@string/tv_046"-->
+    <!--android:textSize="17sp"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/bottomText"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!-- =========================      TableLayoutDriver   ========================================== -->
+    <TableLayout
+        android:id="@+id/TableLayoutDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayoutDriver"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="0,1"
+        android:visibility="invisible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:id="@+id/image_person_off"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_person_off" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_driver_on" />
+        </TableRow>
+    </TableLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txt_rider_app"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:text="@string/tv_017"-->
+    <!--android:textSize="22sp"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/bottomText"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!-- =========================  LinearLayoutCustomer   ===================================== -->
+    <LinearLayout
+        android:id="@+id/LinearLayoutCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_035"
+            android:textAlignment="center"
+            android:textColor="@color/bottomText"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSignInCustomer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@color/btnSignIn"
+                android:text="@string/tv_018"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnRegisterCustomer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/tv_019"
+                android:textColor="@color/btnRegister" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- =========================  LinearLayoutDivrer   ===================================== -->
+    <LinearLayout
+        android:id="@+id/LinearLayoutDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_034"
+            android:textAlignment="center"
+            android:textColor="@color/bottomText"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSignInDivrer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@color/btnSignIn"
+                android:text="@string/tv_018"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnRegisterDivrer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/tv_019"
+                android:textColor="@color/btnRegister" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

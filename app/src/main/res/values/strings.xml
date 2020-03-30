@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">MyCarona</string>
+
+
+    <string name="tv001">Entrar</string>
+    <string name="tv002">Cadastrar</string>
+
+    <!-- Tela Cadastro.class-->
+    <string name="tv_003">Email*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_004">Password*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_005">Confirm Password*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_006">CPF*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_007">Telphone*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_008">City*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_009">State*</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_010">Tipo de Usuário</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_011">Driver</string>  <!-- Tela Cadastro.class-->
+    <string name="tv_012">Customers</string>  <!-- Tela Cadastro.class-->
+
+    <string name="tv_013">Exit</string>  <!-- menu_main-->
+    <string name="tv_014">Caronas Universitárias</string>  <!-- Tela Fazendeiros.class-->
+    <string name="tv_015">ENTRAR</string>  <!-- Tela Login.class-->
+    <string name="tv_016">CADASTRAR</string>  <!-- Tela Login.class-->
+    <string name="tv_017">Looking for the rider APP</string>  <!-- Tela Fazendeiros.class-->
+    <string name="tv_018">SIGN IN</string>  <!-- Tela Piquete.class-->
+    <string name="tv_019">REGISTER</string>  <!-- Tela Piquete.class-->
+    <string name="tv_020">SIGN OUT</string>  <!-- Tela Piquete.class-->
+    <string name="tv_021">Name*</string>  <!-- Tela Piquete.class-->
+
+    <!-- Passar tudo para inglês-->
+    <string name="tv_022">Register success fully!</string>
+    <string name="tv_023">Failed </string>
+    <string name="tv_024">CANCEL </string>
+    <string name="tv_025">You are online</string>
+    <string name="tv_026">You are offline</string>
+    <string name="tv_027">You are here</string>
+    <string name="tv_028">This decive is not supported</string>
+    <string name="tv_029">FIND USER</string>
+    <string name="tv_030">Enter Pickup Location</string>
+    <string name="tv_031">GO</string>
+    <string name="tv_032">Pickup Location</string>
+    <string name="tv_033">AIzaSyBemG2ncK_VMfb-ApOuoHFfq4NB7h0TJ80</string>
+    <string name="tv_034">Mode Driver</string>
+    <string name="tv_035">Mode Customer</string>
+    <string name="tv_036">Usuário não logado</string>
+    <string name="tv_037">Password Different</string>
+
+    <!-- Activity Driver Map Drawer-->
+    <string name="tv_038">Logout</string>
+    <string name="tv_039">Profile Driver</string>
+    <string name="tv_040">Tchau</string>
+    <string name="tv_041">History Driver</string>
+    <string name="tv_042">Driver Map</string>
+
+    <!-- Activity Customer Map Drawer-->
+    <string name="tv_043">History Customer</string>
+    <string name="tv_044">Customer Map</string>
+    <string name="tv_045">Profile Customer</string>
+    <string name="tv_046">Short cut: Press icon customer or driver</string>  <!-- Short cut-->
+    <string name="tv_047">Call Driver</string>
+    <string name="tv_048">Getting you Driver</string>
+    <string name="tv_050">Pickup here!</string>
+    <string name="tv_051">Looking for driver location.</string>
+    <string name="tv_052">Driver Found: </string>
+    <string name="tv_053">Your Driver.</string>
+    <string name="tv_054">Pickup Location</string>
+    <string name="tv_055">Driver\'s here</string>
+
+
+    <!-- Button-->
+    <string name="btn_001">Cadastrar</string>  <!-- Tela Cadastro.class-->
+
+    <string-array name="estadosBrasileiros">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+        <item>Amazonas (AM)</item>
+        <item>Bahia (BA)</item>
+        <item>Ceará (CE)</item>
+        <item>Distrito Federal (DF)</item>
+        <item>Espírito Santo (ES)</item>
+        <item>Goiás (GO)</item>
+        <item>Maranhão (MA)</item>
+        <item>Mato Grosso (MT)</item>
+        <item>Mato Grosso do Sul (MS)</item>
+        <item>Minas Gerais (MG)</item>
+        <item>Pará (PA)</item>
+        <item>Paraíba (PB)</item>
+        <item>Paraná (PR)</item>
+        <item>Pernambuco (PE)</item>
+        <item>Piauí (PI)</item>
+        <item>Rio de Janeiro (RJ)</item>
+        <item>Rio Grande do Norte (RN)</item>
+        <item>Rio Grande do Sul (RS)</item>
+        <item>Rondônia (RO)</item>
+        <item>Roraima (RR)</item>
+        <item>Santa Catarina (SC)</item>
+        <item>São Paulo (SP)</item>
+        <item>Sergipe (SE)</item>
+        <item>Tocantins (TO)</item>
+    </string-array>
+    <string name="title_activity_welcome">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_driver">MapDriver</string>
+    <string name="navigation_drawer_open_driver_map">Open navigation drawer</string>
+    <string name="navigation_drawer_close_driver_map">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_customer_map">CustomerMap</string>
+    <string name="navigation_drawer_open_customer_map">Open navigation drawer</string>
+    <string name="navigation_drawer_close_customer_map">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254359770394",
+    "firebase_url": "https://ubercarona.firebaseio.com",
+    "project_id": "ubercarona",
+    "storage_bucket": "ubercarona.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254359770394:android:4770bc761a6d1165",
+        "android_client_info": {
+          "package_name": "brandao.com.br.projetocaroninha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254359770394-s58rol307s8u228t5c5h856dpi1qro7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brandao.com.br.projetocaroninha",
+            "certificate_hash": "b3a6a8cf24aab05ed5fe3595de4a62a41dac75f9"
+          }
+        },
+        {
+          "client_id": "254359770394-0auedell6vavkhilshr866mis8c537ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEvOPJ76x_MxGTJP-G28soVvlFPYt1wo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254359770394-0auedell6vavkhilshr866mis8c537ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

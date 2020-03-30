@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="entrar">#1E8842</color>
+    <color name="entrar1">#000</color>
+    <color name="cadastrar">#F19931</color>
+
+    <color name="bottomText">#6b6b76</color>
+
+    <color name="btnSalvarAzul">#5A8FF8</color>
+
+    <color name="vector001">#0AF2FF</color>
+
+    <color name="cinza_claro">#EDEDED</color>
+
+    <color name="baseReleaseColor">#212121</color>
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballPressColor">#9E9E9E</color>
+
+    <color name="rippleEffectColor">#f816a463</color>
+
+    <color name="btnSignIn">#1fbad6</color>
+    <color name="btnRegister">#83838c</color>
+    
+    <color name="metColorPrimary">#0a091b</color>
+    <color name="metColorPrimaryDark">#070716</color>
+
+
+</resources>
